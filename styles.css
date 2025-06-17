@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+
+@import url("css/reset.css");
+@import url("css/layout.css");
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Arial, sans-serif;
+}
+h1,
+h2 {
+  font-family: "Rochester", cursive;
+  color: #6b6b6b;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0rem;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 16px;
+}
+p {
+  font-size: 18px;
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+body {
+  background-color: #000000;
+}
+.wrapper {
+  background-color: #f7efef;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.site-Titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+}
+.site-Titel p {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: left;
+}
+section {
+  text-align: center;
+  margin: 2rem 0;
+}
+footer {
+  background-color: #8e8e8ec8;
+}
+
+.button {
+  background-color: #ecd8b8;
+  border: 1px #000000;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 0.2rem;
+  width: 5.2rem; /* Ensure this property is correctly set */
+  text-align: center;
+  display: inline-block; /* Ensure this property is correctly set */
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.card .button {
+  width: 9.5rem;
+}
+.button:hover {
+  background-color: #d7c09ecf;
+}
+
+.card .button {
+  background-color: #d6d3cfb7;
+}
+.card .button:hover {
+  background-color: #e9e9e9b7;
+}
+.hero_contaner {
+  background-image: url(imges/hero_img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.aktiv {
+  text-decoration: underline;
+}
+.footer_nav a {
+  color: rgb(23, 23, 130);
+  text-decoration: underline;
+}
+
+.information_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}

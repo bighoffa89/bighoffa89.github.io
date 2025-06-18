@@ -58,9 +58,7 @@ p {
   width: 100%;
   text-align: justify;
 }
-.card a {
-  margin-top: auto;
-}
+
 .card a {
   display: block;
   margin-top: auto;
@@ -73,6 +71,7 @@ p {
   text-decoration: none;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   transition: background 0.2s, color 0.2s, transform 0.2s;
+  margin-top: auto;
 }
 
 .card a:hover,

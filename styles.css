@@ -164,6 +164,9 @@ footer ul {
     background: #181818;
     color: #eae8e8;
   }
+  footer .tech-stack img {
+    border-radius: 10px;
+  }
   h1,
   h2 {
     color: #bbbbbb;

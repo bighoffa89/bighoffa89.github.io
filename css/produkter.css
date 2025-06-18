@@ -24,7 +24,7 @@ main h3 {
 }
 .card {
   max-width: 400px;
-
+  background-color: rgb(232, 232, 232);
   height: 800px;
   padding: 0 2rem;
   padding-bottom: 1rem;

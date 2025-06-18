@@ -116,7 +116,7 @@ footer ul {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background: #181818;
+    background: #000000;
     color: #eae8e8;
   }
   .wrapper {

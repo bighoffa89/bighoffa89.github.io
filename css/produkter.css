@@ -40,7 +40,7 @@ main h3 {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card img {
-  width: 100%;
+  width: 300px;
   height: 340px;
   object-fit: cover;
   border-radius: 15px;
